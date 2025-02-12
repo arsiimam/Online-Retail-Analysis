@@ -1,0 +1,45 @@
+📂 Online_Retail_Analysis
+│
+├── 📂 data                     # Menyimpan semua data terkait
+│   ├── 📂 raw                  # Dataset mentah (belum diproses)
+│   │   ├── OnlineRetail.xlsx
+│   │   ├── OnlineRetail_2010-2011.csv
+│   │
+│   ├── 📂 processed            # Dataset setelah pembersihan & transformasi
+│   │   ├── cleaned_online_retail.csv
+│   │   ├── aggregated_sales.csv
+│   │
+│   ├── 📂 interim              # Data sementara (jika ada preprocessing bertahap)
+│   │   ├── temp_filtered_data.csv
+│   │
+│   ├── 📂 external             # Data tambahan (jika ada sumber lain)
+│   │   ├── country_codes.csv
+│
+├── 📂 notebooks                 # Menyimpan semua analisis dalam Jupyter Notebook
+│   ├── 00_data_exploration.ipynb    # Eksplorasi awal (EDA)
+│   ├── 01_data_cleaning.ipynb       # Pembersihan & preprocessing data
+│   ├── 02_sales_analysis.ipynb      # Analisis pola penjualan
+│   ├── 03_customer_behavior.ipynb   # Analisis perilaku pelanggan
+│   ├── 04_rfm_segmentation.ipynb    # Segmentasi pelanggan dengan RFM
+│   ├── 05_anomaly_detection.ipynb   # Deteksi anomali & outlier
+│   ├── 06_visualizations.ipynb      # Dashboard & visualisasi
+│
+├── 📂 scripts                  # Kode Python modular untuk analisis
+│   ├── data_cleaning.py         # Fungsi untuk membersihkan data
+│   ├── sales_analysis.py        # Fungsi analisis penjualan
+│   ├── customer_segmentation.py # Segmentasi pelanggan
+│   ├── utils.py                 # Fungsi bantu (helper functions)
+│
+├── 📂 reports                  # Hasil analisis & insight
+│   ├── 📂 figures              # Gambar visualisasi
+│   │   ├── sales_trends.png
+│   │   ├── customer_segmentation.png
+│   │
+│   ├── final_report.pdf        # Laporan akhir
+│   ├── summary_presentation.pptx # Presentasi hasil
+│
+├── 📂 models                   # Jika ada model ML untuk prediksi (opsional)
+│   ├── customer_clustering.pkl  # Model clustering pelanggan
+│
+├── README.md                   # Dokumentasi proyek
+└── requirements.txt             # Daftar dependensi Python
