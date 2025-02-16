@@ -27,6 +27,4 @@ During the exploratory data analysis (EDA) phase, we identified a significant am
 - Given the high proportion of missing values, we will **conduct sales analysis without relying on CustomerID**.
 - The missing value patterns and insights will be documented in the portfolio to justify the decision to exclude customer-level analysis.
 
----
-This analysis highlights the importance of understanding missing values beyond simple data cleaning. The findings will be integrated into our portfolio project under the **EDA section**.
 
