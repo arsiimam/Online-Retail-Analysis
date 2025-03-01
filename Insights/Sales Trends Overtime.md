@@ -12,5 +12,4 @@ The line graph illustrates the total sales (£K) per month from December 2010 to
 This trend suggests a potential seasonality effect, with a strong increase before the holiday season and a significant drop afterward.
 
 ## Visualization
-![Sales Trends Over Time](img/Total%20Sales%20Per%20Month.png)
-
+![Sales Trends Over Time](img/Total_Sales_Per_Month.png)
